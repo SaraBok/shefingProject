@@ -1,0 +1,14 @@
+<p>user works!</p>
+
+<ul>
+<li  *ngFor ="let i of user">
+
+{{i.name}};
+{{i.email}};
+</li>
+
+</ul>
+
+
+<div *ngFor="let user of list" (click)="choose(id)"></div>
+
